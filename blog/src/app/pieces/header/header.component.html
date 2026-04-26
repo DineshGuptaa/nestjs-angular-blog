@@ -1,0 +1,75 @@
+<header
+  class="select-none bg-white bg-opacity-70 drop-shadow-md w-full z-50 relative"
+  aria-hidden="true"
+  *ngIf="settingsService.Settings | async as settings"
+>
+  <nav
+    class="mx-auto p-5 max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 items-center md:grid-cols-2"
+    [ngClass]="{
+      'gap-y-4': router.url === '/'
+    }"
+  >
+    <a
+      (click)="onClick()"
+      class="cursor-pointer justify-self-center px-2 md:justify-self-start items-center flex justify-center text-black text-opacity-80"
+    >
+      <app-logo [color]="settings.theme[0]" />
+      <svg
+        height="45"
+        [attr.width]="size | async"
+        class="drop-shadow-md translate-x-[-20px]"
+      >
+        <style>
+          .heavy {
+            font: bold 28px sans-serif;
+          }
+        </style>
+        <g>
+          <text
+            x="0"
+            y="23"
+            id="myElement"
+            #title
+            class="heavy drop-shadow-sm"
+            [attr.fill]="settings.theme[1]"
+          >
+            {{ settings.title.toUpperCase() }}
+          </text>
+        </g>
+        <text
+          x="0"
+          y="40"
+          #subtitle
+          class="drop-shadow-sm font-semibold text-gray-900"
+          fill="currentColor"
+        >
+          {{ settings.subtitle }}
+        </text>
+      </svg>
+    </a>
+    <div class="justify-self-center md:justify-self-end w-full md:w-1/2">
+      <ng-content *ngIf="router.url === '/'; else homeButton"></ng-content>
+    </div>
+  </nav>
+  <ng-template #homeButton>
+    <div
+      class="w-full flex justify-end px-2 fixed right-5 md:static"
+    >
+      <a
+        (click)="onClick()"
+        [ngStyle]="{
+          'background-color': settings.theme[hover]
+        }"
+        #homeButton
+        (mouseover)="hover = 1"
+        (focus)="homeButton.blur()"
+        (mouseleave)="hover = 0"
+        class="cursor-pointer drop-shadow-lg transition-all text-white hover:text-white w-10 flex items-center justify-center rounded-full aspect-square scale-110 bg-gray-200 hover:bg-gray-50"
+      >
+        <svg width="24" height="24" viewBox="0 0 24 24">
+          <path fill="currentColor" [attr.d]="attrD(hover)"></path>
+        </svg>
+      </a>
+    </div>
+  </ng-template>
+</header>
