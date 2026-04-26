@@ -1,3 +1,5 @@
+## This project is forked from https://github.com/SilvioCavalcantiBonfim/angular-blog
+
 # Blog in Angular with CMS and Backend in Nest.js (Monorepo)
 
 ![ Typescript](https://img.shields.io/badge/-TypeScript-white? style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
