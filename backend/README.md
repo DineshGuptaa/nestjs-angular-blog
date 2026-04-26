@@ -1,9 +1,9 @@
 # Backend to Blog System with Nest.js, Prism and MySQL
 
-![ Typescript](https://img.shields.io/badge/-TypeScript-white? style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
-![ nest](https://img.shields.io/badge/-nestJS-white? style=for-the-badge&logo=nestjs&color=E0234E&logoColor=white)
-![ mysql](https://img.shields.io/badge/-mysql-white? style=for-the-badge&logo=mysql&color=4479A1&logoColor=white)
-![ prism](https://img.shields.io/badge/-prism-white? style=for-the-badge&logo=prisma&color=2D3748&logoColor=white)
+![Typescript](https://img.shields.io/badge/-TypeScript-white?style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
+![nest](https://img.shields.io/badge/-nestJS-white?style=for-the-badge&logo=nestjs&color=E0234E&logoColor=white)
+![mysql](https://img.shields.io/badge/-mysql-white?style=for-the-badge&logo=mysql&color=4479A1&logoColor=white)
+![prism](https://img.shields.io/badge/-prism-white?style=for-the-badge&logo=prisma&color=2D3748&logoColor=white)
 
 This is a backend project using the Nest.js framework with Prisma integration for MySQL database access. The goal of this project is to provide a complete framework for developing a backend for a blogging system, including a CMS for content management. The system supports public routes for reading protected content and routes for creating, updating, and deleting content using JWT (JSON Web Token) authentication.
 

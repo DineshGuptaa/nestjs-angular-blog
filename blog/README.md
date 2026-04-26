@@ -1,9 +1,9 @@
 # Frontend of the Blogging System in Angular
 
-![ Typescript](https://img.shields.io/badge/-TypeScript-white? style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
-![ angular](https://img.shields.io/badge/-angular-white? style=for-the-badge&logo=angular&color=DD0031&logoColor=white)
-![ tailwindcss](https://img.shields.io/badge/-tailwind_css-white? style=for-the-badge&logo=tailwindcss&color=06B6D4&logoColor=white)
-![ lottie](https://img.shields.io/badge/-Lottie-white? style=for-the-badge&color=08ccbc&logoColor=white)
+![Typescript](https://img.shields.io/badge/-TypeScript-white?style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
+![angular](https://img.shields.io/badge/-angular-white?style=for-the-badge&logo=angular&color=DD0031&logoColor=white)
+![tailwindcss](https://img.shields.io/badge/-tailwind_css-white?style=for-the-badge&logo=tailwindcss&color=06B6D4&logoColor=white)
+![lottie](https://img.shields.io/badge/-Lottie-white?style=for-the-badge&color=08ccbc&logoColor=white)
 
 This is the frontend project in Angular for a blogging system. The purpose of this project is to provide a user-friendly and responsive user interface to view and interact with blog posts.
 

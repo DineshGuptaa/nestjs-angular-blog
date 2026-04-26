@@ -2,14 +2,14 @@
 
 # Blog in Angular with CMS and Backend in Nest.js (Monorepo)
 
-![ Typescript](https://img.shields.io/badge/-TypeScript-white? style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
-![ nest](https://img.shields.io/badge/-nestJS-white? style=for-the-badge&logo=nestjs&color=E0234E&logoColor=white)
-![ mysql](https://img.shields.io/badge/-mysql-white? style=for-the-badge&logo=mysql&color=4479A1&logoColor=white)
-![ prism](https://img.shields.io/badge/-prism-white? style=for-the-badge&logo=prisma&color=2D3748&logoColor=white)
-![ angular](https://img.shields.io/badge/-angular-white? style=for-the-badge&logo=angular&color=DD0031&logoColor=white)
-![ tailwindcss](https://img.shields.io/badge/-tailwind_css-white? style=for-the-badge&logo=tailwindcss&color=06B6D4&logoColor=white)
-![ lottie](https://img.shields.io/badge/-Lottie-white? style=for-the-badge&color=08ccbc&logoColor=white)
-![ docker](https://img.shields.io/badge/-docker-white? style=for-the-badge&logo=docker&color=2496ED&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-white?style=for-the-badge&logo=typescript&color=3178C6&logoColor=white)
+![NestJS](https://img.shields.io/badge/-nestJS-white?style=for-the-badge&logo=nestjs&color=E0234E&logoColor=white)
+![MySQL](https://img.shields.io/badge/-mysql-white?style=for-the-badge&logo=mysql&color=4479A1&logoColor=white)
+![Prisma](https://img.shields.io/badge/-prisma-white?style=for-the-badge&logo=prisma&color=2D3748&logoColor=white)
+![Angular](https://img.shields.io/badge/-angular-white?style=for-the-badge&logo=angular&color=DD0031&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-tailwind_css-white?style=for-the-badge&logo=tailwindcss&color=06B6D4&logoColor=white)
+![Lottie](https://img.shields.io/badge/-Lottie-white?style=for-the-badge&color=08ccbc&logoColor=white)
+![Docker](https://img.shields.io/badge/-docker-white?style=for-the-badge&logo=docker&color=2496ED&logoColor=white)
 
 
 This is a complete blog project developed in Angular for the frontend, with an integrated CMS (Content Management System), and a backend in Nest.js that communicates with a MySQL database using Prisma as ORM (Object-Relational Mapping). The project is organized into a monorepo, which means that the frontend, CMS, and backend are grouped into a single repository. In addition, the project has a Docker configuration to facilitate the execution of the demo.
